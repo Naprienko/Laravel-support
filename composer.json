@@ -1,29 +1,29 @@
 {
-  "name": "ingvar/laravel-support",
-  "description": "support comunication's  package for laravel",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "Ingvar\\Support\\": "src"
-    }
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Igor Naprienko",
-      "email": "i.v.naprienko@gmail.com"
-    }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-	"php": ">=7.0.0"
-	"illuminate/routing": "5.5.x|5.6.x|5.7.x|5.8.x",
-	"illuminate/session": "5.5.x|5.6.x|5.7.x|5.8.x",
-	"illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
-	"symfony/debug": "^3|^4",
-	"symfony/finder": "^3|^4"
-  },
-  "require-dev": {
-        "laravel/framework": "5.5.x"
-    }
-}
+    "name": "ingvar/laravel-support",
+    "description": "support comunication's  package for laravel",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "Ingvar\\Support\\": "src"
+      }
+    },
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Igor Naprienko",
+        "email": "i.v.naprienko@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.0.0",
+      "illuminate/routing": "5.5.x|5.6.x|5.7.x|5.8.x",
+      "illuminate/session": "5.5.x|5.6.x|5.7.x|5.8.x",
+      "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
+      "symfony/debug": "^3|^4",
+      "symfony/finder": "^3|^4"
+    },
+    "require-dev": {
+          "laravel/framework": "5.5.x"
+      }
+  }
